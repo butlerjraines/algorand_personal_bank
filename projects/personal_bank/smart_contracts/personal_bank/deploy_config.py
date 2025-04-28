@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 # define deployment behaviour based on supplied app spec
 def deploy() -> None:
     from smart_contracts.artifacts.personal_bank.personal_bank_client import (
-        HelloArgs,
+       # HelloArgs,
         PersonalBankFactory,
     )
 
