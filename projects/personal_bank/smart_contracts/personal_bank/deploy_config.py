@@ -35,3 +35,11 @@ def deploy() -> None:
                 receiver=app_client.app_address,
             )
         )
+
+
+        # After the app_client is created, add:
+    name = "personal_bank"
+    #response = app_client.send.hello(args=HelloArgs(name=name))
+    logger.info(
+        f"Called hello on {app_client.app_name} ({app_client.app_id}) "
+    )
